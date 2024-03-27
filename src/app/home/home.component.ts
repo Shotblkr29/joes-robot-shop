@@ -6,7 +6,11 @@ import { Component } from '@angular/core';
   <p class="red">
     Inline home works!
   </p>`,
-  styleUrls: ['./home.component.css']
+  styles: [`
+    .red {
+      color: red;
+    }
+  `]
 })
 export class HomeComponent {
 
