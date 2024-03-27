@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: `
   <p class="red">
     Inline home works!
-  </p>``
+  </p>`,
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
